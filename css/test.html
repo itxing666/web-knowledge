@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .box {
+      width: 100%;
+      height: 200px;
+    }
+    .box div {
+      float: left;
+      height: 100px;
+    }
+    .box div:nth-child(1) {
+      background-color: pink;
+    }
+    .box div:nth-child(2) {
+      background-color: green;
+    }
+    .box div:nth-child(3) {
+      background-color: yellow;
+    }
+    @media screen and (min-width: 100px) and (max-width: 200px) {
+      .box div {
+        width: 100%;
+      }
+    }
+    @media screen and (min-width: 200px) and (max-width: 400px) {
+      .box div {
+        width: 50%;
+      }
+    }
+    @media screen and (min-width: 400px) {
+      .box div {
+        width: 33.33%;
+      }
+    }
+  </style> -->
+  <!-- <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .box {
+      width: 100%;
+      height: 200px;
+    }
+    .box div {
+      float: left;
+      height: 100px;
+    }
+    .box div:nth-child(1) {
+      background-color: pink;
+    }
+    .box div:nth-child(2) {
+      background-color: green;
+    }
+    .box div:nth-child(3) {
+      background-color: yellow;
+    }
+  </style> -->
+  <!-- <style media="(min-width: 100px) and (max-width: 200px)">
+    .box div {
+      width: 100%;
+    }
+  </style>
+  <style media="(min-width: 200px) and (max-width: 400px)">
+    .box div {
+      width: 50%;
+    }
+  </style>
+  <style media="(min-width: 400px)">
+    .box div {
+      width: 33.33%;
+    }
+  </style> -->
+  <link rel="stylesheet" href="./test.css">
+  <link rel="stylesheet" href="./media1.css" media="(min-width: 100px) and (max-width: 200px)">
+  <link rel="stylesheet" href="./media2.css" media="(min-width: 200px) and (max-width: 400px)">
+  <link rel="stylesheet" href="./media3.css" media="(min-width: 400px)">
+</head>
+<body>
+  <div class="box">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</body>
+</html>
